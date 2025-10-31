@@ -76,15 +76,3 @@ Foram criados gráficos com **Matplotlib** e **Seaborn**, como:
 - 🥧 Gráfico de pizza para frete médio
 - 📦 Gráfico comparativo de produtos mais vendidos por loja
 
-Exemplo de visualização:
-
-```python
-sns.barplot(data=vendas_por_categoria_loja, 
-            x="Categoria do Produto", 
-            y="Quantidade", 
-            hue="Loja", 
-            palette="Set2")
-plt.title("Vendas por Categoria e Loja", fontsize=14)
-plt.xlabel("Categoria")
-plt.ylabel("Quantidade de Vendas")
-plt.show()
